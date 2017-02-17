@@ -5,7 +5,7 @@
   <title>Locations de vacances, logements, expériences et lieux-Aitbnb</title>
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="style_body.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/a85a823305.js"></script>
 </head>
 <body>
   <section>
@@ -22,67 +22,107 @@
               <h2>Réservez des expériences et des <br/>logements uniques dans plus de 191 pays.</h2>
             </div>
           </div>
-          <div class="row">
-            <div id="chameau">
-              <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-lg-3 col-md-3 col-sm-3 col-xs-11 ">
-                <p>Où</p>
-                <input  placeholder="Destination, ville, adresse" type="text"/>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                <p>Quand</p>
-                <input placeholder="Arrivée" type="text" size="10"/>
-                <img src="img/fleche.png" title="fleche" alt="fleche"/>
-                <input placeholder="Départ" type="text"/>
-              </div>
-              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-                <p>Voyageurs</p>
-                <select name= "Voyageurs" >
-                  <option value="menu1" selected>Voyageurs</option>
-                  <option value="menu2">Adulte</option>
-                  <option value="carte">Enfant</option>
-                  <option value="carte">Bébé</option>
-                </select>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                <button type="button" class="btn btn-danger btn-lg">Rechercher</button>
-              </div>
+          <div class="row leMenuDeSelection">
+            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-lg-3 col-md-3 col-sm-3 col-xs-11 ">
+              <p>Où</p>
+              <input  placeholder="Destination, ville, adresse" type="text"/>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+              <p>Quand</p>
+              <input placeholder="Arrivée" type="text" size="10"/>
+              <img src="img/fleche.png" title="fleche" alt="fleche"/>
+              <input placeholder="Départ" type="text" size="10"/>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+              <p>Voyageurs</p>
+              <select name= "Voyageurs" >
+                <option value="menu1" selected>Voyageurs</option>
+                <option value="menu2">Adulte</option>
+                <option value="carte">Enfant</option>
+                <option value="carte">Bébé</option>
+              </select>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+              <button type="button" class="btn btn-danger btn-lg">Rechercher</button>
             </div>
           </div>
+          <div class="row leMenuDeSelection">
+            <div class="col-lg-offset-1">
+              <h3>Logements</h3>
+            </div>
+          </div>
+          <div class="row lesImagesTop">
+            <div class="col-md-offset-1 col-md-3">
+              <a href="https://www.airbnb.fr/rooms/369034" target="blank">
+                <img class="imageHaut" src="img/logement1.jpg" alt="images"/>
+                <div class="caption">
+                  <p><strong>79€Chambre privée · 2 lits</strong></p>
+                  <p>Stylish house close to river thames</p>
+                  <p><i class="fa fa-star etoile" aria-hidden="true"></i><i class="fa fa-star etoile" aria-hidden="true"></i><i class="fa fa-star etoile" aria-hidden="true"></i><i class="fa fa-star etoile" aria-hidden="true"></i><i class="fa fa-star etoile" aria-hidden="true"></i>
+                    <span class="policeDeCaractere">155 commentaires</span></p>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://www.airbnb.fr/rooms/6080283" target="blank">
+                <img class="imageHaut" src="img/logement2.jpg" alt="images"/>
+                <div class="caption">
+                  <p><strong>122€Logement entier · 1 lit</strong></p>
+                  <p>Private Pool House with Amazing Views!</p>
+                  <p><i class="fa fa-star etoile" aria-hidden="true"></i><i class="fa fa-star etoile" aria-hidden="true"></i><i class="fa fa-star etoile" aria-hidden="true"></i><i class="fa fa-star etoile" aria-hidden="true"></i><i class="fa fa-star etoile" aria-hidden="true"></i>
+                    <span class="policeDeCaractere">68 commentaires</span></p>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://www.airbnb.fr/rooms/833602" target="blank">
+                <img class="imageHaut" src="img/logement3.jpg" alt="images"/>
+                <div class="caption">
+                  <p><strong>79€Chambre privée · 2 lits</strong></p>
+                  <p>Stylish house close to river thames</p>
+                  <p><i class="fa fa-star etoile" aria-hidden="true"></i><i class="fa fa-star etoile" aria-hidden="true"></i><i class="fa fa-star etoile" aria-hidden="true"></i><i class="fa fa-star etoile" aria-hidden="true"></i><i class="fa fa-star etoile" aria-hidden="true"></i>
+                    <span class="policeDeCaractere">155 commentaires</span></p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <br/>
+          <h3>Destinations à la une</h3>
           <div class="row">
-              <div class="col-md-offset-1 col-md-3">
-                <a href="https://www.airbnb.fr/rooms/369034" target="blank">
-                  <img class="imageTop" src="img/logement1.jpg" alt="Fjords"/>
-                  <div class="caption">
-                    <p>79€Chambre privée · 2 lits</p>
-                    <p>Stylish house close to river thames</p>
-                    <p>155 commentaires</p>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3">
-                <a href="https://www.airbnb.fr/rooms/6080283" target="blank">
-                  <img class="imageTop" src="img/logement2.jpg" alt="Fjords"/>
-                  <div class="caption">
-                    <p>122€Logement entier · 1 lit</p>
-                    <p>Private Pool House with Amazing Views!</p>
-                    <p>68 commentaires</p>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3">
-                <a href="https://www.airbnb.fr/rooms/833602" target="blank">
-                  <img class="imageTop" src="img/logement3.jpg" alt="Fjords"/>
-                  <div class="caption">
-                    <p>79€Chambre privée · 2 lits</p>
-                    <p>Stylish house close to river thames</p>
-                    <p>155 commentaires</p>
-                  </div>
-                </a>
-              </div>
+            <div class="col-md-offset- col-md-2">
+              <a href="https://www.airbnb.fr/s/Paris--France?guests=1&page=1&s_tag=GlYefbRn&allow_override%5B%5D=" target="blank">
+                <img class="imageHaut" src="img/paris.jpg" alt="images"/>
+              </a>
+            </div>
+            <div class="col-md-2">
+              <a href="https://www.airbnb.fr/s/London--United-Kingdom?guests=1&page=1&s_tag=YRvP_l5V&allow_override%5B%5D=" target="blank">
+                <img class="imageHaut" src="img/londre.jpg" alt="images"/>
+              </a>
+            </div>
+            <div class="col-md-2">
+              <a href="https://www.airbnb.fr/s/Tokyo--Japan?guests=1&page=1&s_tag=1PP5EVej&allow_override%5B%5D=" target="blank">
+                <img class="imageHaut" src="img/tokyo.jpg" alt="images"/>
+              </a>
+            </div>
+            <div class="col-md-2">
+              <a href="https://www.airbnb.fr/s/Florence--Italy?guests=1&page=1&s_tag=P6IoSVj1&allow_override%5B%5D=" target="blank">
+                <img class="imageHaut" src="img/firenze.jpg" alt="images"/>
+              </a>
+            </div>
+            <div class="col-md-2">
+              <a href="https://www.airbnb.fr/s/Los-Angeles--CA?guests=1&page=1&s_tag=abfVc90_&allow_override%5B%5D=" target="blank">
+                <img class="imageHaut" src="img/losAngeles.jpg" alt="images"/>
+              </a>
+            </div>
+            <div class="col-md-2">
+              <a href="https://www.airbnb.fr/s/Havana--Cuba?guests=1" target="blank">
+                <img class="imageHaut" src="img/laHabana.jpg" alt="images"/>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    </section>
-  </body>
-  </html>
+  </section>
+</body>
+</html>

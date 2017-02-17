@@ -22,11 +22,37 @@ select
   background-color: transparent;
   border:none;
 }
-.chameau
-{
-  margin-top: 80px;
-}
-.imageTop
+.imageHaut
 {
   width: 100%;
+}
+.lesImagesTop
+{
+  margin-top: 10px;
+}
+.leMenuDeSelection
+{
+  margin-top: 30px;
+}
+.leMenuDeSelection h3
+{
+  padding-left: 15px;
+}
+.etoile
+{
+  font-size: 10px;
+  color:#0FAB9F;
+}
+a
+{
+  color:black;
+}
+a:hover
+{
+  color:black;
+}
+.policeDeCaractere
+{
+  color:#484848;
+  font-size:12px;
 }
