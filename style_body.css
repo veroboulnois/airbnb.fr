@@ -1,0 +1,32 @@
+h1
+{
+  font-size: 40px;
+  letter-spacing: -0.8px;
+  color: #FF5A5F;
+  font-family: inherit;
+  font-weight: bolder;
+}
+h2
+{
+  font-size: 40px;
+  letter-spacing: -0.8px;
+  font-family: inherit;
+}
+input
+{
+  background-color: transparent;
+  border:none;
+}
+select
+{
+  background-color: transparent;
+  border:none;
+}
+.chameau
+{
+  margin-top: 80px;
+}
+.imageTop
+{
+  width: 100%;
+}
